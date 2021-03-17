@@ -50,7 +50,7 @@
     </div>
     <div class="footer">
       <a v-bind:href="termUrl" class="terms">Terms</a>
-      <a v-bind:href="policyUrl" class="policy">Private policy</a>
+      <a v-bind:href="policyUrl" class="policy">Private policy  as</a>
     </div>
   </div>
 </template>
