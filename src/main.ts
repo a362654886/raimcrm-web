@@ -13,7 +13,6 @@ import "vue-multiselect/dist/vue-multiselect.min.css";
 import axios from "axios";
 import VueAxios from "vue-axios";
 import VueCookies from "vue-cookies-ts";
-import GAuth from "vue-google-oauth2";
 import { BootstrapVueIcons } from "bootstrap-vue";
 import teamApi from "@/api/teamApi";
 import googleLogin from "@/api/googleLogin";
