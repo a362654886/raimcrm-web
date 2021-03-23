@@ -6,7 +6,7 @@ export default {
       .post("https://accounts.google.com/o/oauth2/token", {
         code: code,
         client_id:
-          "431812137939-r38lkibgtg991pecljd2s34vsc52uddm.apps.googleusercontent.com",
+          "34756663577-0imh4j2fujlnjl9qsrbi1h6kunkosqgt.apps.googleusercontent.com",
         client_secret: "2CAVjDfYtEV8JgoUZdWlOSOL",
         redirect_uri: redirct_token,
         grant_type: "authorization_code",
@@ -37,7 +37,7 @@ export default {
     const url = `https://www.googleapis.com/oauth2/v4/token`;
     const postData = {
       client_id:
-        "431812137939-r38lkibgtg991pecljd2s34vsc52uddm.apps.googleusercontent.com",
+        "34756663577-0imh4j2fujlnjl9qsrbi1h6kunkosqgt.apps.googleusercontent.com",
       client_secret: "2CAVjDfYtEV8JgoUZdWlOSOL",
       refresh_token: refreshtoken,
       grant_type: "refresh_token",

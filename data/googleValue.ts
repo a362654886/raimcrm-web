@@ -21,7 +21,7 @@ export const getUrl = () => {
     getScope() +
     "&access_type=offline&include_granted_scopes=true&response_type=code&state=state_parameter_passthrough_value&redirect_uri=" +
     getGoogleUrl() +
-    "&client_id=431812137939-r38lkibgtg991pecljd2s34vsc52uddm.apps.googleusercontent.com";
+    "&client_id=34756663577-0imh4j2fujlnjl9qsrbi1h6kunkosqgt.apps.googleusercontent.com";
   return url;
 };
 
@@ -31,6 +31,6 @@ export const getTeamUrl = () => {
     getScope() +
     "&access_type=offline&include_granted_scopes=true&response_type=code&state=state_parameter_passthrough_value&redirect_uri=" +
     getGoogleUrl() +
-    "/teamPage&client_id=431812137939-r38lkibgtg991pecljd2s34vsc52uddm.apps.googleusercontent.com";
+    "/teamPage&client_id=34756663577-0imh4j2fujlnjl9qsrbi1h6kunkosqgt.apps.googleusercontent.com";
   return url;
 };
