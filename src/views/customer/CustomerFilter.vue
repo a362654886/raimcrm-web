@@ -500,9 +500,9 @@ export default class CustomerFilter extends Vue {
   margin-bottom: 8px;
 }
 #button {
-  width: 40%;
+  width: 20%;
   margin-top: 40px;
-  background-color: #dc143c;
+  background-color: green;
 }
 #customername {
   margin-bottom: 8px;
