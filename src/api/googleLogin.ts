@@ -7,7 +7,7 @@ export default {
         code: code,
         client_id:
           "34756663577-0imh4j2fujlnjl9qsrbi1h6kunkosqgt.apps.googleusercontent.com",
-        client_secret: "2CAVjDfYtEV8JgoUZdWlOSOL",
+        client_secret: "hsafDUwirFs4EYUxEcWv9hul",
         redirect_uri: redirct_token,
         grant_type: "authorization_code",
       })
@@ -38,7 +38,7 @@ export default {
     const postData = {
       client_id:
         "34756663577-0imh4j2fujlnjl9qsrbi1h6kunkosqgt.apps.googleusercontent.com",
-      client_secret: "2CAVjDfYtEV8JgoUZdWlOSOL",
+      client_secret: "hsafDUwirFs4EYUxEcWv9hul",
       refresh_token: refreshtoken,
       grant_type: "refresh_token",
     };
