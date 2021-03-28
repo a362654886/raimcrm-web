@@ -3,7 +3,7 @@ import configfn from "@/api/config";
 import { getGoogleLabel, getTeamToken } from "../../functions/publicFn";
 
 const basicURL = "https://people.googleapis.com/v1/";
-const key = `key=AIzaSyBDzFv2a_ztAgCj1788xHLkktKEScmqhj4`;
+const key = `key=AIzaSyBFJOKsJ-h31bKwFFt2LFvMLeg6j0VHcSA`;
 
 export default {
     async getPeople(attribute: string) {

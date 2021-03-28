@@ -1,7 +1,7 @@
 import { Vue } from "vue-property-decorator";
 
 const basicURL = process.env.VUE_APP_API_ADDRESS+"files"
-const key = `key=AIzaSyBDzFv2a_ztAgCj1788xHLkktKEScmqhj4`;
+const key = `key=AIzaSyBFJOKsJ-h31bKwFFt2LFvMLeg6j0VHcSA`;
 
 export default {
   async getGoogleAddress(input: string) {

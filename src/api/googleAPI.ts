@@ -59,7 +59,7 @@ export default {
             }));
     },
     getenpoint(email: string){
-        return `https://gmail.googleapis.com/gmail/v1/users/${email}/messages/send?AIzaSyBDzFv2a_ztAgCj1788xHLkktKEScmqhj4`
+        return `https://gmail.googleapis.com/gmail/v1/users/${email}/messages/send?AIzaSyBFJOKsJ-h31bKwFFt2LFvMLeg6j0VHcSA`
     },
     async getformdata(emailbody: any){
         let base64file: any = "";
