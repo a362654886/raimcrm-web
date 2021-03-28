@@ -144,6 +144,7 @@ export default {
     },
     async postPeople(data: any) {
         let enpoint = basicURL + `people:createContact?` + key;
+        console.log(enpoint)
         let token: any = await getTeamToken();
         let config = configfn.getconfig(token);
         let body = this.getBody(data)
